@@ -1,0 +1,16 @@
+CREATE TABLE users (
+    id INT(100) PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(50) NOT NULL,
+    username VARCHAR(50) NOT NULL,
+    dob DATE,
+    email VARCHAR(30) NOT NULL,
+    pass VARCHAR(30) NOT NULL,
+    gender VARCHAR(30) NOT NULL,
+    contact VARCHAR(30),
+    city VARCHAR(30),
+    state VARCHAR(30),
+    zip INT(6),
+    createdat DATETIME DEFAULT CURRENT_TIMESTAMP,
+    profilepic VARCHAR(200) DEFAULT 'images/profile/defaultuser.svg'
+    age INT(4),
+);
