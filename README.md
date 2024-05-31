@@ -73,10 +73,3 @@ The GUVI Internship project is a web application designed to enable users to sig
     - Start your local server (e.g., using XAMPP, WAMP, or MAMP).
     - Open your web browser and navigate to `http://localhost/guvi-internship-project`.
 
-## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request with your changes. Ensure that your code follows the project's coding standards and includes appropriate tests.
-
-## Contact
-
-For any questions or inquiries, please contact [your-email@example.com](mailto:your-email@example.com).
