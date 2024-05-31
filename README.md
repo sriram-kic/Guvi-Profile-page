@@ -38,11 +38,6 @@ The GUVI Internship project is a web application designed to enable users to sig
 4. **Real-time Data Updates:** Use of AJAX to update user information in real-time without requiring a page reload.
 5. **Data Privacy:** Implementation of security measures to protect user data and ensure privacy.
 
-## Project Links
-
-- **GitHub Repository:** [Project Link](#) (replace with actual link)
-- **Live Demo:** [Live Project](#) (replace with actual link)
-
 ## Skills Used
 
 - **HTML/CSS:** For creating the structure and styling the web pages.
@@ -81,10 +76,6 @@ The GUVI Internship project is a web application designed to enable users to sig
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request with your changes. Ensure that your code follows the project's coding standards and includes appropriate tests.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Contact
 
