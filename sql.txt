@@ -1,16 +1,16 @@
 CREATE TABLE users (
-    id INT(100) PRIMARY KEY AUTO_INCREMENT,
+    id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(50) NOT NULL,
     username VARCHAR(50) NOT NULL,
     dob DATE,
-    email VARCHAR(30) NOT NULL,
-    pass VARCHAR(30) NOT NULL,
+    email VARCHAR(50) NOT NULL,
+    pass VARCHAR(255) NOT NULL, -- Increased length for password storage
     gender VARCHAR(30) NOT NULL,
-    contact VARCHAR(30),
-    city VARCHAR(30),
-    state VARCHAR(30),
-    zip INT(6),
+    contact VARCHAR(15), -- Limited to typical phone number length
+    city VARCHAR(50),
+    state VARCHAR(50),
+    zip VARCHAR(10), -- Use VARCHAR to account for leading zeros
     createdat DATETIME DEFAULT CURRENT_TIMESTAMP,
-    profilepic VARCHAR(200) DEFAULT 'images/profile/defaultuser.svg'
-    age INT(4),
+    profilepic VARCHAR(200) DEFAULT 'images/profile/defaultuser.svg',
+    age INT
 );
